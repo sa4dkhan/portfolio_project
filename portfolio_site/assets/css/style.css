@@ -1187,11 +1187,11 @@ ul.portfolio-image li .desc{
 .facebook a:after{
   background-color: #527bbb;
 }
-.twitter{
+.github{
   background: #ABABAB;
 }
-.twitter a:after{
-  background-color: #77ccf1;
+.github a:after{
+  background-color: rgba(26, 47, 31, 0.95);
 }
 .gplus{
   background: #d8d8d8;

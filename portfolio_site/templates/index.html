@@ -43,7 +43,7 @@
         <!--LOGO-->
         <div class="col-md-2 col-xs-6 logo">
 {#          <a href="index.html"><img alt="logo" class="logo-nav" src="{% static 'images/logo.png' %}"></a>#}
-          <a href="{% url 'index' %}"><h1 style="margin-top: 5px; font-family: 'Source Code Pro', monospace;"><strong>Portfolio</strong></h1></a>
+          <a href="{% url 'index' %}"><h1 style="margin-top: 5px; font-family: 'Source Code Pro', monospace;"><strong>Saad K.</strong></h1></a>
         </div>
         <!--/.LOGO END-->
       </div>
@@ -57,7 +57,7 @@
               <span>About</span>
             </a>
             <a data-scroll="" href="#work">
-              <span>Work</span>
+              <span>skills</span>
             </a>
              <a data-scroll="" href="#services">
               <span>Services</span>
@@ -128,13 +128,17 @@
                   <div class="wrap-about">
                     <div class="w-content">
                       <p class="head-about">
-                       e, that's why it is so complicated.
+                        <div>
+                            <p>Building applications that make the work and life easier</p>
+                            <p>working with the team or company that makes me stronger</p>
+                            <p>Troubleshooting the problems that makes me happier</p>
+                        </div>
                       </p>
                       
                       <h5 class="name">
                         Saad Khan
                       </h5>
-                      <img alt="signature" src="{% static 'images/signature.png' %}">
+                      <img alt="signature" src="{% static 'images/signature_saad.jpg' %}">
                     </div>
                   </div>
                 </div>
@@ -170,14 +174,9 @@
                             <td> sa4dkhan</td>
                           </tr>
                           <tr>
-                            <td class="title">Dribbble </td>
+                            <td class="title">Github</td>
                             <td class="break">:</td>
-                            <td> Muh-Reza</td>
-                          </tr>
-                          <tr>
-                            <td class="title">Behance</td>
-                            <td class="break">:</td>
-                            <td> m-reza</td>
+                            <td><a href="https://github.com/sa4dkhan">https://github.com/sa4dkhan</a></td>
                           </tr>
                         </table>
                       </div>
@@ -195,15 +194,89 @@
         <section class="grey-bg mar-tm-10" id="work">
           <div class="container">
             <div class="row">
-              <div class="col-md-3">
+              <div class="col-md-6">
                 <h3 class="title-small">
-                  <span>Work</span>
+                  <span>Skills</span>
                 </h3>
                 <p class="content-detail">
-                  Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. <br><br>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros.
+                    <ul>
+                       <li>Web Development using:
+                           <ul>
+                               <li>Django (5 months, Completely in love with it and this is my passion,
+                                   learning and working on a researched based project  )
+                                   <ul>
+                                       <li>
+                                           familiar with: pip, virtualenv, static, media,
+                                           template inheritance, urls, models, forms,
+                                           views, templates, class based view,
+                                           function based view, deployment
+                                           in pythonanywhere, heroku and so on
+                                       </li>
+                                   </ul>
+                               </li>
+                               <li>Laravel(1 year+):
+                                   <ul>
+                                       <li>Built an Industrial Laundry Project with 3 members team,
+                                           currently in production and live.
+                                           <ul>
+                                               <li>link: <a href="http://presstobd.azurewebsites.net">http://presstobd.azurewebsites.net</a></li>
+                                               <li>link: <a href="http://pressto.com.bd">http://pressto.com.bd</a></li>
+                                               <li>key features learned: barcode generate,
+                                                   pos printer code generate
+                                               </li>
+                                           </ul>
+                                       </li>
+                                       <li>Contributed creating  api and web module for
+                                           Corporate Medical Portal with 10 members team,
+                                           currently in production and live.
+                                           <ul>
+                                               <li>link: <a href="http://myorko.com">http://myorko.com</a></li>
+                                           </ul>
+                                       </li>
+                                   </ul>
+                               </li>
+                               <li>CodeIgniter (4 months):
+                                   <ul>
+                                       <li>Created myself a simple project for a doctor:
+                                           <ul>
+                                               <li>link: <a href="http://mhrdbd.com">http://mhrdbd.com</a></li>
+
+                                           </ul>
+                                       </li>
+                                       <li>Bug fixing of existing codeigniter project:
+                                        <ul>
+                                            <li>link: <a href="http://admin.smilegallerybd.com">http://admin.smilegallerybd.com</a></li>
+                                        </ul>
+                                       </li>
+                                   </ul>
+                               </li>
+                               <li>ExpressJS(2 weeks):
+                                   <ul>
+                                       <li>completed a blog project including sign in login, crud functionality, with mongodb</li>
+                                   </ul>
+                               </li>
+
+                           </ul>
+                       </li>
+                       <li>Database Integration using:
+                           <ul>
+                               <li>Oracle 12c (Integrated with laravel and django)</li>
+                               <li>SQL Server(Laravel)</li>
+                               <li>MySQL (Most experienced) </li>
+                               <li>MongoDB (with Express JS)</li>
+                           </ul>
+                       </li>
+                       <li>Prepare software development life cycle process
+                           following scrum, sketch, wireframing, er diagram,
+                           data flow diagram, use case diagram,
+                           business flow and coding
+                       </li>
+                       <li>HTML, CSS, Bootstrap, JQuery, Ajax </li>
+
+                    </ul>
                 </p>
               </div>
-              <div class="col-md-9 content-right">
+              <div class="col-md-6 content-right">
                 <!--PORTFOLIO IMAGE-->
                 <ul class="portfolio-image">
                   <li class="col-md-6">
@@ -280,112 +353,112 @@
         <!--/.WORK END-->
 
         <!--SERVICES-->
-        <section class="white-bg" id="services">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-3">
-                <h3 class="title-small">
-                  <span>Services</span>
-                </h3>
-                <p class="content-detail">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-                </p>
-              </div>
-              <div class="col-md-9 content-right">
-                <div class="row">
-                  <ul class="listing-item">
-                    <li>
-                      <div class="col-md-4 col-sm-4">
-                        <h3 class="icon-use">
-                          c
-                        </h3>
-                        <p class="head-sm">
-                          MARKETING
-                        </p>
-                        <p class="text-grey">
-                          Typi non habent claritatem insitam est usus legentis in iis qui facit eorum claritatem. 
-                        </p>
-                      </div>
-                    </li>
-
-                    <li>
-                      <div class="col-md-4 col-sm-4">
-                        <h3 class="icon-use">
-                          b
-                        </h3>
-                        <p class="head-sm">
-                          WEB DESIGN
-                        </p>
-                        <p class="text-grey">
-                          Typi non habent claritatem insitam est usus legentis in iis qui facit eorum claritatem. 
-                        </p>
-                      </div>
-                    </li>
-
-                    <li>
-                      <div class="col-md-4 col-sm-4">
-                        <h3 class="icon-use">
-                          d
-                        </h3>
-                        <p class="head-sm">
-                          UI
-                        </p>
-                        <p class="text-grey">
-                          Typi non habent claritatem insitam est usus legentis in iis qui facit eorum claritatem. 
-                        </p>
-                      </div>
-                    </li>
-                  </ul>
-
-                  <ul class="listing-item">
-                    <li>
-                      <div class="col-md-4 col-sm-4">
-                        <p class="icon-use">
-                          f
-                        </p>
-                        <p class="head-sm">
-                          DIRECTOR
-                        </p>
-                        <p class="text-grey">
-                          Typi non habent claritatem insitam est usus legentis in iis qui facit eorum claritatem. 
-                        </p>
-                      </div>
-                    </li>
-
-                    <li>
-                      <div class="col-md-4 col-sm-4">
-                        <h3 class="icon-use">
-                          p
-                        </h3>
-                        <p class="head-sm">
-                          UX DESIGN
-                        </p>
-                        <p class="text-grey">
-                          Typi non habent claritatem insitam est usus legentis in iis qui facit eorum claritatem. 
-                        </p>
-                      </div>
-                    </li>
-
-                    <li>
-                      <div class="col-md-4 col-sm-4">
-                        <h3 class="icon-use">
-                          m
-                        </h3>
-                        <p class="head-sm">
-                          FRONT END
-                        </p>
-                        <p class="text-grey">
-                          Typi non habent claritatem insitam est usus legentis in iis qui facit eorum claritatem. 
-                        </p>
-                      </div>
-                    </li>
-                  </ul>
-
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+{#        <section class="white-bg" id="services">#}
+{#          <div class="container">#}
+{#            <div class="row">#}
+{#              <div class="col-md-3">#}
+{#                <h3 class="title-small">#}
+{#                  <span>Services</span>#}
+{#                </h3>#}
+{#                <p class="content-detail">#}
+{#                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.#}
+{#                </p>#}
+{#              </div>#}
+{#              <div class="col-md-9 content-right">#}
+{#                <div class="row">#}
+{#                  <ul class="listing-item">#}
+{#                    <li>#}
+{#                      <div class="col-md-4 col-sm-4">#}
+{#                        <h3 class="icon-use">#}
+{#                          c#}
+{#                        </h3>#}
+{#                        <p class="head-sm">#}
+{#                          MARKETING#}
+{#                        </p>#}
+{#                        <p class="text-grey">#}
+{#                          Typi non habent claritatem insitam est usus legentis in iis qui facit eorum claritatem. #}
+{#                        </p>#}
+{#                      </div>#}
+{#                    </li>#}
+{##}
+{#                    <li>#}
+{#                      <div class="col-md-4 col-sm-4">#}
+{#                        <h3 class="icon-use">#}
+{#                          b#}
+{#                        </h3>#}
+{#                        <p class="head-sm">#}
+{#                          WEB DESIGN#}
+{#                        </p>#}
+{#                        <p class="text-grey">#}
+{#                          Typi non habent claritatem insitam est usus legentis in iis qui facit eorum claritatem. #}
+{#                        </p>#}
+{#                      </div>#}
+{#                    </li>#}
+{##}
+{#                    <li>#}
+{#                      <div class="col-md-4 col-sm-4">#}
+{#                        <h3 class="icon-use">#}
+{#                          d#}
+{#                        </h3>#}
+{#                        <p class="head-sm">#}
+{#                          UI#}
+{#                        </p>#}
+{#                        <p class="text-grey">#}
+{#                          Typi non habent claritatem insitam est usus legentis in iis qui facit eorum claritatem. #}
+{#                        </p>#}
+{#                      </div>#}
+{#                    </li>#}
+{#                  </ul>#}
+{##}
+{#                  <ul class="listing-item">#}
+{#                    <li>#}
+{#                      <div class="col-md-4 col-sm-4">#}
+{#                        <p class="icon-use">#}
+{#                          f#}
+{#                        </p>#}
+{#                        <p class="head-sm">#}
+{#                          DIRECTOR#}
+{#                        </p>#}
+{#                        <p class="text-grey">#}
+{#                          Typi non habent claritatem insitam est usus legentis in iis qui facit eorum claritatem. #}
+{#                        </p>#}
+{#                      </div>#}
+{#                    </li>#}
+{##}
+{#                    <li>#}
+{#                      <div class="col-md-4 col-sm-4">#}
+{#                        <h3 class="icon-use">#}
+{#                          p#}
+{#                        </h3>#}
+{#                        <p class="head-sm">#}
+{#                          UX DESIGN#}
+{#                        </p>#}
+{#                        <p class="text-grey">#}
+{#                          Typi non habent claritatem insitam est usus legentis in iis qui facit eorum claritatem. #}
+{#                        </p>#}
+{#                      </div>#}
+{#                    </li>#}
+{##}
+{#                    <li>#}
+{#                      <div class="col-md-4 col-sm-4">#}
+{#                        <h3 class="icon-use">#}
+{#                          m#}
+{#                        </h3>#}
+{#                        <p class="head-sm">#}
+{#                          FRONT END#}
+{#                        </p>#}
+{#                        <p class="text-grey">#}
+{#                          Typi non habent claritatem insitam est usus legentis in iis qui facit eorum claritatem. #}
+{#                        </p>#}
+{#                      </div>#}
+{#                    </li>#}
+{#                  </ul>#}
+{##}
+{#                </div>#}
+{#              </div>#}
+{#            </div>#}
+{#          </div>#}
+{#        </section>#}
         <!--/.SERVICES END-->
 
         <!--EMPLOYEMENT-->
@@ -397,7 +470,7 @@
                   <span>Employement</span>
                 </h3>
                 <p class="content-detail">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                  I have been working at Nextdot Bangladesh for almost 2 years as a software engineer (back-end)
                 </p>
               </div>
               <div class="col-md-9 content-right">
@@ -408,18 +481,24 @@
                         <div class="wrap-card">
                           <div class="card">
                             <h2 class="year">
-                              2007 - 2009
+                              2017 May - Present
                             </h2>
                             <p class="job">
-                              web designer
+                              Software Engineer (Back-end)
                             </p>
                             <p class="company">
-                              Corp Project
+                              Pressto Project
+                            </p>
+                            <p class="company">
+                              Orko Project
+                            </p>
+                            <p class="company">
+                              Inventory Project
                             </p>
                             <hr>
                             <div class="text-detail">
                               <p>
-                                Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanita per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes.
+                                Accomplished pressto project and orko project
                               </p>
                             </div>
                           </div>
@@ -432,67 +511,18 @@
                         <div class="wrap-card">
                           <div class="card">
                             <h2 class="year">
-                              2009 - 2010
+                              2017 Feb - 2017 April
                             </h2>
                             <p class="job">
-                              web designer
+                              Intern (Back-end)
                             </p>
                             <p class="company">
-                              Google inc
+                              Nextdot Bangladesh
                             </p>
                             <hr>
                             <div class="text-detail">
                               <p>
-                                Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanita per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>  
-                  <ul class="listing-item">
-                    <li>
-                      <div class="col-md-6 col-sm-6">
-                        <div class="wrap-card">
-                          <div class="card">
-                            <h2 class="year">
-                              2010 - 2014
-                            </h2>
-                            <p class="job">
-                              crative director 
-                            </p>
-                            <p class="company">
-                              41 studio
-                            </p>
-                            <hr>
-                            <div class="text-detail">
-                              <p>
-                                Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanita per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-
-                    <li>
-                      <div class="col-md-6 col-sm-6">
-                        <div class="wrap-card">
-                          <div class="card">
-                            <h2 class="year">
-                              2014 - NOW
-                            </h2>
-                            <p class="job">
-                              fullstack designer
-                            </p>
-                            <p class="company">
-                              Freelance
-                            </p>
-                            <hr>
-                            <div class="text-detail">
-                              <p>
-                                Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanita per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes.
+                                Hello World
                               </p>
                             </div>
                           </div>
@@ -514,50 +544,42 @@
             <div class="row">
               <div class="col-md-3">
                 <h3 class="title-small">
-                  <span>Skills</span>
+                  <span>Skill Percentage</span>
                 </h3>
                 <p class="content-detail">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                  Hello World
                 </p>
               </div>
               <div class="col-md-9 content-right">
                 <!--SKILLST-->
                 <div class="skillst">
-                  <div class="skillbar" data-percent="78%">
+                  <div class="skillbar" data-percent="30%">
                     <div class="title head-sm">
-                      HTML 5
+                      Django
                     </div>
                     <div class="count-bar">
                       <div class="count"></div>
                     </div>
                   </div>
-                  <div class="skillbar" data-percent="91%">
+                  <div class="skillbar" data-percent="60%">
                     <div class="title head-sm">
-                      CSS 4
+                      Laravel
                     </div>
                     <div class="count-bar">
                       <div class="count"></div>
                     </div>
                   </div>
-                  <div class="skillbar" data-percent="58%">
+                  <div class="skillbar" data-percent="40%">
                     <div class="title head-sm">
-                      jQuery
+                      Python
                     </div>
                     <div class="count-bar">
                       <div class="count"></div>
                     </div>
                   </div>
-                  <div class="skillbar" data-percent="63%">
+                  <div class="skillbar" data-percent="50%">
                     <div class="title head-sm">
                       PHP
-                    </div>
-                    <div class="count-bar">
-                      <div class="count"></div>
-                    </div>
-                  </div>
-                  <div class="skillbar" data-percent="95%">
-                    <div class="title head-sm">
-                      Photoshop
                     </div>
                     <div class="count-bar">
                       <div class="count"></div>
@@ -580,7 +602,7 @@
                   <span>Education</span>
                 </h3>
                 <p class="content-detail">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                  Hello World
                 </p>
               </div>
               <div class="col-md-9 content-right">
@@ -591,18 +613,18 @@
                         <div class="wrap-card">
                           <div class="card">
                             <h2 class="year">
-                              2002 - 2005
+                              2012 - 2016
                             </h2>
                             <p class="job">
-                              Information System
+                              B.Sc. in Computer Science and Engineering
                             </p>
                             <p class="company">
-                              Telkom University
+                              Daffodil International University
                             </p>
                             <hr>
                             <div class="text-detail">
                               <p>
-                                Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanita per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes.
+                                Hello World
                               </p>
                             </div>
                           </div>
@@ -615,67 +637,18 @@
                         <div class="wrap-card">
                           <div class="card">
                             <h2 class="year">
-                              2005 - 2007
+                              2010 - 2012
                             </h2>
                             <p class="job">
-                              DKV
+                              HSC
                             </p>
                             <p class="company">
-                              UNIKOM
+                              Ashuganj Sar Karkhana College
                             </p>
                             <hr>
                             <div class="text-detail">
                               <p>
-                                Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanita per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                  <ul class="listing-item">
-                    <li>
-                      <div class="col-md-6 col-sm-6">
-                        <div class="wrap-card">
-                          <div class="card">
-                            <h2 class="year">
-                              2007 - 2009
-                            </h2>
-                            <p class="job">
-                              Magister DKV 
-                            </p>
-                            <p class="company">
-                              ITB
-                            </p>
-                            <hr>
-                            <div class="text-detail">
-                              <p>
-                                Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanita per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-
-                    <li>
-                      <div class="col-md-6 col-sm-6">
-                        <div class="wrap-card">
-                          <div class="card">
-                            <h2 class="year">
-                              2009 - 2010
-                            </h2>
-                            <p class="job">
-                              Typhography Magister
-                            </p>
-                            <p class="company">
-                              Florida University
-                            </p>
-                            <hr>
-                            <div class="text-detail">
-                              <p>
-                                Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanita per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes.
+                                Hello World
                               </p>
                             </div>
                           </div>
@@ -700,30 +673,30 @@
                   <div class="list-testimonial">
                     <div class="content-testimonial">
                       <h3 class="testi">
-                        “ Reza did a phenominal job setting up my a website for my product He performed the task very quickly and efficiently. We know we have the superior topical pain relief cream on the market and he has helped us communicate that message via the website he built from scratch. Thanks! ”
+                        “Stay hungry; stay foolish.”
                       </h3>
                       <p class="people">
-                        Darin Cohen - Active10
+                        Whole Earth Epilog, 1974
                       </p>
                     </div>
                   </div>
                   <div class="list-testimonial">
                     <div class="content-testimonial">
                       <h3 class="testi">
-                        “ Another successful project working with Reza. He has great design skills, is very responsive and professional. Looking forward to the next opportunity to work together. ”
+                        “We are all faced with a series of great opportunities brilliantly disguised as impossible situations.”
                       </h3>
                       <p class="people">
-                        Marko Milicevic
+                        Unknown
                       </p>
                     </div>
                   </div>
                   <div class="list-testimonial">
                     <div class="content-testimonial">
                       <h3 class="testi">
-                        “ Great designer! I like his sense of design, especially the color scheme. Quick turnaround. Look forward to work with him again. Thanks!! ”
+                        “If you don't like something, change it. If you can't change it, change your attitude. Don't complain.”
                       </h3>
                       <p class="people">
-                        JK Thang
+                        Maya Angelou
                       </p>
                     </div>
                   </div>
@@ -736,130 +709,130 @@
         <!--/.TESTMONIAL END-->
 
         <!--BLOG-->
-        <section class="grey-bg" id="blog">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <h3 class="title-small-center text-center">
-                  <span>Blog</span>
-                </h3>
-                <div class="row">
-                  <div class="col-md-6 col-md-offset-3">
-                    <p class="content-details text-center">
-                      Lorem ipsum dolor sit amet consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt. 
-                    </p>
-                  </div>
-                </div>
-                <!--GRID BLOG-->
-                <div class="grid">
-                  <div class="grid-item">
-                    <div class="wrap-article">
-                      <img alt="blog-1" class="img-circle text-center" src="{% static '' %}images/blog-1.png">
-                      <p class="subtitle fancy">
-                        <span>09/01/2015</span>
-                      </p>
-                      <a href="#">
-                        <h3 class="title">
-                          Popular Design in 2015 
-                        </h3>
-                      </a>
-                      <p class="content-blog">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div class="grid-item">
-                    <div class="wrap-article">
-                     <img alt="blog-4" class="img-circle text-center" src="{% static '' %}images/blog-4.jpg">
-                     <p class="subtitle fancy">
-                        <span>08/20/2015</span>
-                      </p>
-                      <a href="#">
-                        <h3 class="title">
-                          Just Start
-                        </h3>
-                      </a>
-                      <p class="content-blog">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
-                      </p>
-                    </div>
-                  </div>
-
-                  <div class="grid-item">
-                    <div class="wrap-article">
-                      <img alt="blog6" class="img-circle text-center" src="{% static '' %}images/blog-6.jpg">
-                      <p class="subtitle fancy">
-                        <span>08/11/2015</span>
-                      </p>
-                      <a href="#">
-                        <h3 class="title">
-                          The Huffington Post
-                        </h3>
-                      </a>
-                      <p class="content-blog">
-                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
-                      </p>
-                    </div>
-                  </div>
-                  
-                  <div class="grid-item">
-                    <div class="wrap-article">
-                      <img alt="blog2" class="img-circle text-center" src="{% static '' %}images/blog-2.jpg">
-                      <p class="subtitle fancy">
-                        <span>08/03/2015</span>
-                      </p>
-                      <a href="#">
-                        <h3 class="title">
-                          Manuk!
-                        </h3>
-                      </a>
-                      <p class="content-blog">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
-                      </p>
-                    </div>
-                  </div>
-
-                  <div class="grid-item">
-                    <div class="wrap-article">
-                      <img alt="blog5" class="img-circle text-center" src="{% static '' %}images/blog-5.jpg">
-                      <p class="subtitle fancy">
-                        <span>07/26/2015</span>
-                      </p>
-                      <a href="#">
-                        <h3 class="title">
-                          Do Web Designer Really Need To Know UI/UX Design and Backend Code too?
-                        </h3>
-                      </a>
-                      <p class="content-blog">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
-                      </p>
-                    </div>
-                  </div>
-
-                  <div class="grid-item">
-                    <div class="wrap-article">
-                      <img alt="blog-3" class="img-circle text-center" src="{% static '' %}images/blog-3.jpg">
-                      <p class="subtitle fancy">
-                        <span>08/03/2015</span>
-                      </p>
-                      <a href="#">
-                        <h3 class="title">
-                          Somewhere Place
-                        </h3>
-                      </a>
-                      <p class="content-blog">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.
-                      </p>
-                    </div>
-                  </div>                  
-
-                </div>
-                <!--/.GRID BLOG END-->
-              </div>
-            </div>
-          </div>
-        </section>
+{#        <section class="grey-bg" id="blog">#}
+{#          <div class="container">#}
+{#            <div class="row">#}
+{#              <div class="col-md-12">#}
+{#                <h3 class="title-small-center text-center">#}
+{#                  <span>Blog</span>#}
+{#                </h3>#}
+{#                <div class="row">#}
+{#                  <div class="col-md-6 col-md-offset-3">#}
+{#                    <p class="content-details text-center">#}
+{#                      Lorem ipsum dolor sit amet consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt. #}
+{#                    </p>#}
+{#                  </div>#}
+{#                </div>#}
+{#                <!--GRID BLOG-->#}
+{#                <div class="grid">#}
+{#                  <div class="grid-item">#}
+{#                    <div class="wrap-article">#}
+{#                      <img alt="blog-1" class="img-circle text-center" src="{% static '' %}images/blog-1.png">#}
+{#                      <p class="subtitle fancy">#}
+{#                        <span>09/01/2015</span>#}
+{#                      </p>#}
+{#                      <a href="#">#}
+{#                        <h3 class="title">#}
+{#                          Popular Design in 2015 #}
+{#                        </h3>#}
+{#                      </a>#}
+{#                      <p class="content-blog">#}
+{#                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation.#}
+{#                      </p>#}
+{#                    </div>#}
+{#                  </div>#}
+{##}
+{#                  <div class="grid-item">#}
+{#                    <div class="wrap-article">#}
+{#                     <img alt="blog-4" class="img-circle text-center" src="{% static '' %}images/blog-4.jpg">#}
+{#                     <p class="subtitle fancy">#}
+{#                        <span>08/20/2015</span>#}
+{#                      </p>#}
+{#                      <a href="#">#}
+{#                        <h3 class="title">#}
+{#                          Just Start#}
+{#                        </h3>#}
+{#                      </a>#}
+{#                      <p class="content-blog">#}
+{#                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. #}
+{#                      </p>#}
+{#                    </div>#}
+{#                  </div>#}
+{##}
+{#                  <div class="grid-item">#}
+{#                    <div class="wrap-article">#}
+{#                      <img alt="blog6" class="img-circle text-center" src="{% static '' %}images/blog-6.jpg">#}
+{#                      <p class="subtitle fancy">#}
+{#                        <span>08/11/2015</span>#}
+{#                      </p>#}
+{#                      <a href="#">#}
+{#                        <h3 class="title">#}
+{#                          The Huffington Post#}
+{#                        </h3>#}
+{#                      </a>#}
+{#                      <p class="content-blog">#}
+{#                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. #}
+{#                      </p>#}
+{#                    </div>#}
+{#                  </div>#}
+{#                  #}
+{#                  <div class="grid-item">#}
+{#                    <div class="wrap-article">#}
+{#                      <img alt="blog2" class="img-circle text-center" src="{% static '' %}images/blog-2.jpg">#}
+{#                      <p class="subtitle fancy">#}
+{#                        <span>08/03/2015</span>#}
+{#                      </p>#}
+{#                      <a href="#">#}
+{#                        <h3 class="title">#}
+{#                          Manuk!#}
+{#                        </h3>#}
+{#                      </a>#}
+{#                      <p class="content-blog">#}
+{#                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. #}
+{#                      </p>#}
+{#                    </div>#}
+{#                  </div>#}
+{##}
+{#                  <div class="grid-item">#}
+{#                    <div class="wrap-article">#}
+{#                      <img alt="blog5" class="img-circle text-center" src="{% static '' %}images/blog-5.jpg">#}
+{#                      <p class="subtitle fancy">#}
+{#                        <span>07/26/2015</span>#}
+{#                      </p>#}
+{#                      <a href="#">#}
+{#                        <h3 class="title">#}
+{#                          Do Web Designer Really Need To Know UI/UX Design and Backend Code too?#}
+{#                        </h3>#}
+{#                      </a>#}
+{#                      <p class="content-blog">#}
+{#                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. #}
+{#                      </p>#}
+{#                    </div>#}
+{#                  </div>#}
+{##}
+{#                  <div class="grid-item">#}
+{#                    <div class="wrap-article">#}
+{#                      <img alt="blog-3" class="img-circle text-center" src="{% static '' %}images/blog-3.jpg">#}
+{#                      <p class="subtitle fancy">#}
+{#                        <span>08/03/2015</span>#}
+{#                      </p>#}
+{#                      <a href="#">#}
+{#                        <h3 class="title">#}
+{#                          Somewhere Place#}
+{#                        </h3>#}
+{#                      </a>#}
+{#                      <p class="content-blog">#}
+{#                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.#}
+{#                      </p>#}
+{#                    </div>#}
+{#                  </div>                  #}
+{##}
+{#                </div>#}
+{#                <!--/.GRID BLOG END-->#}
+{#              </div>#}
+{#            </div>#}
+{#          </div>#}
+{#        </section>#}
         <!--/.BLOG END-->
 
         <!--CONTACT-->
@@ -871,7 +844,7 @@
                   <span>Contact</span>
                 </h3>
                 <p class="content-detail">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                  Hello World.
                 </p>
 
               </div>
@@ -899,14 +872,14 @@
           <div class="footer-top">
             <ul class="socials">
               <li class="facebook">
-                <a href="#" data-hover="Facebook">Facebook</a>
+                <a href="https://facebook.com/sa4dkhan" data-hover="Facebook">Facebook</a>
               </li>
-              <li class="twitter">
-                <a href="#" data-hover="Twitter">Twitter</a>
+              <li class="github">
+                <a href="https://github.com/sa4dkhan" data-hover="Github">Github</a>
               </li>
-              <li class="gplus">
-                <a href="#" data-hover="Google +">Google +</a>
-              </li>
+{#              <li class="gplus">#}
+{#                <a href="#" data-hover="Google +">Google +</a>#}
+{#              </li>#}
             </ul>
           </div>
 
